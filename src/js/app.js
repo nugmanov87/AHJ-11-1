@@ -5,7 +5,7 @@ import AddMsg from './AddMsg.js';
 
 const elMessages = document.querySelector('.incom-messages');
 const addMsg = new AddMsg(elMessages);
-const url = 'https://ahj-11-1-1.herokuapp.com/messages/unread';
+const url = 'https://ahj-11-1-1.herokuapp.com/';
 
 (() => {
   const numQuery = interval(5000);
